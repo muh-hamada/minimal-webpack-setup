@@ -1,0 +1,10 @@
+$webpack-logo-img: 'logo-on-white-bg.png';
+
+body {
+	height: 500px;
+}
+
+.webpack {
+	background: url("./#{$webpack-logo-img}") no-repeat center;
+	background-size: contain;
+}

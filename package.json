@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack",
+    "build": "webpack --mode production",
     "dev": "npm run build -- --watch"
   },
   "devDependencies": {
@@ -32,5 +32,16 @@
   "bugs": {
     "url": "https://github.com/muh-hamada/minimal-webpack-setup/issues"
   },
-  "homepage": "https://github.com/muh-hamada/minimal-webpack-setup#readme"
+  "homepage": "https://github.com/muh-hamada/minimal-webpack-setup#readme",
+  "dependencies": {
+    "@svgdotjs/svg.draggable.js": "^3.0.2",
+    "@svgdotjs/svg.js": "^3.0.16",
+    "@svgdotjs/svg.topath.js": "^2.0.3",
+    "css.gg": "^2.0.0",
+    "node-static": "^0.7.11",
+    "paper": "^0.12.15",
+    "paper-jsdom": "^0.12.15",
+    "svg.connectable.js": "^1.0.1",
+    "svg.draggy.js": "^1.1.1"
+  }
 }
